@@ -1,0 +1,7 @@
+add unsigned.rb to your config/initializers folder to use unsigned integer types
+
+Example:
+
+create_table :new_table do |t|
+  t.unsigned :an_integer
+end
